@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "Blackout/Mini-H-Quad",
-    "esc": "Flyduino/KISS-18A",
+    "esc": "Flyduino/KISS-30A",
     "motor": "Cobra/CM-2204-1960kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
