@@ -1,3 +1,4 @@
+
 # dump
 
 # version
@@ -98,7 +99,7 @@ color 13 330,0,255
 color 14 0,0,0
 color 15 0,0,0
 
-set looptime = 2000
+set looptime = 1200
 set emf_avoidance = 0
 set mid_rc = 1500
 set min_check = 1100
@@ -107,7 +108,7 @@ set rssi_channel = 0
 set rssi_scale = 30
 set rssi_ppm_invert = 0
 set input_filtering_mode = 0
-set min_throttle = 1047
+set min_throttle = 1060
 set max_throttle = 2000
 set min_command = 1000
 set servo_center_pulse = 1500
@@ -170,11 +171,11 @@ set failsafe_off_delay = 200
 set failsafe_throttle = 1000
 set rx_min_usec = 985
 set rx_max_usec = 2115
-set acc_hardware = 0
+set acc_hardware = 1
 set mag_hardware = 0
 set blackbox_rate_num = 1
 set blackbox_rate_denom = 1
-set blackbox_device = 0
+set blackbox_device = 1
 
 # dump profile
 
@@ -183,8 +184,8 @@ profile 0
 
 # aux
 aux 0 0 2 1750 1925
-aux 1 1 1 1775 1900
-aux 2 12 0 1775 1900
+aux 1 12 0 1775 1900
+aux 2 0 0 900 900
 aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
@@ -270,7 +271,7 @@ set d_pitch = 32
 set p_roll = 40
 set i_roll = 45
 set d_roll = 32
-set p_yaw = 150
+set p_yaw = 110
 set i_yaw = 50
 set d_yaw = 1
 set p_pitchf =  2.500
@@ -305,11 +306,9 @@ set rc_rate = 90
 set rc_expo = 65
 set rc_yaw_expo = 0
 set thr_mid = 50
-set thr_expo = 70
+set thr_expo = 7
 set roll_rate = 30
 set pitch_rate = 30
-set yaw_rate = 40
+set yaw_rate = 53
 set tpa_rate = 0
 set tpa_breakpoint = 1500
-
-# 
