@@ -5,8 +5,8 @@
     "motor": "Cobra/CM-2204-1960kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
-      "HQProp/6045-Glass-Composite-Propellers---2-CW",
-      "HQProp/6045-Glass-Composite-Propellers---2-CCW"
+      "HQProp/6x4.5-FG-DD",
+      "HQProp/6x4.5-FG-DD"
     ],
     "arm": "Blackout/Mini-H-Quad---6\"-Arm",
     "battery": [
