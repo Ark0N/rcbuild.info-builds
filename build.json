@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV210-CHARPU",
+    "esc": "Kiss 24A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "MotoLab/Tornado-F3",
+    "prop": [
+      "Surveilzone/DalProp-5x4"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/4S-1300mAh-75C"
+    ],
+    "osd": "",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "Surveilzone/HS1177-Sony-Super-HAD-II",
+    "hqcam": "GoPro/HERO4-Session",
+    "videotx": "TBS Unify Pro",
+    "blackbox": "",
+    "voltagereg": "Pololu/D24V6F5"
+  },
+  "version": 1
 }
